@@ -1,25 +1,28 @@
-header{
-    /*width: 100%; display flez já está fazendo o trabalho de largura*/
-    /*height: 138px; padding já está fazendo o trabalho de Altura*/
-    background-color: var(--background-tertiary);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 38px 48px;
+header {
+  /*width: 100%; display flez já está fazendo o trabalho de largura*/
+  /*height: 138px; padding já está fazendo o trabalho de Altura*/
+  background-color: var(--background-tertiary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
 }
 
-.logo{
-    width: 68px;
-    height: 64px;
-    display: inline-block;
+.logo {
+  width: 68px;
+  height: 64px;
+  display: inline-block;
 }
 
-.navigation-menu{
-    margin-top: 24px;
+.navigation-menu {
+  margin-top: 24px;
 }
 
-nav{
-    display: none;
+input [type="checkbox"]:checked ~ nav {
+  display: block;
+}
 
+nav {
+  display: none;
 }
